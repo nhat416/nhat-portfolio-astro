@@ -13,16 +13,16 @@
     <ul class="grow shrink">
       <!-- Sidebar content here -->
       <li><a id="home" href="/">Home</a></li>
-      <li><a id="projects" href="/projects">Projects</a></li>
-      <li><a id="services" href="/services">Services</a></li>
-      <li><a id="store" href="/store">Store</a></li>
-      <li><a id="blog" href="/blog/">Blog</a></li>
+{/*      <li><a id="projects" href="/projects">Projects</a></li>*/}
+{/*<li><a id="services" href="/services">Services</a></li>*/}
+{/*      <li><a id="store" href="/store">Store</a></li>*/}
+{/*      <li><a id="blog" href="/blog/">Blog</a></li>*/}
       <li><a id="cv" href="/cv">CV</a></li>
-      <li><a href="mailto:contact.manuelernestog@gmail.com">Contact</a></li>
+      <li><a href="mailto:nhatt416@gmail.com">Contact</a></li>
     </ul>
     <div class="social-icons px-4 my-2 flex self-center">
       <a
-        href="https://manuelernestog.github.io/paylink/"
+        href="https://nhat416.github.io/"
         target="_blank"
         class="mx-3"
         aria-label="Support my work"
@@ -41,7 +41,7 @@
           ></path></svg
         >
       </a>
-      <a href="https://github.com/manuelernestog" target="_blank" class="mx-3" aria-label="Github" title="Github">
+      <a href="https://github.com/nhat416" target="_blank" class="mx-3" aria-label="Github" title="Github">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -55,7 +55,7 @@
           ></path>
         </svg>
       </a>
-      <a href="https://twitter.com/manuelernestog" target="_blank" class="mx-3" aria-label="Twitter" title="Twitter">
+      <a href="https://twitter.com/NhatTra50416195" target="_blank" class="mx-3" aria-label="Twitter" title="Twitter">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -68,7 +68,7 @@
         </svg>
       </a>
       <a
-        href="https://www.linkedin.com/in/manuelernestogr"
+        href="https://www.linkedin.com/in/nhattran-toronto"
         target="_blank"
         class="mx-3"
         aria-label="Linkedin"
@@ -103,16 +103,16 @@
 <script>
   const homeLink = document.getElementById("home");
   const projectsLink = document.getElementById("projects");
-  const servicesLink = document.getElementById("services");
-  const storeLink = document.getElementById("store");
-  const blogLink = document.getElementById("blog");
+//const servicesLink = document.getElementById("services");
+//  const storeLink = document.getElementById("store");
+//  const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
 
   var isHome = true;
 
   const url = window.location.href;
 
-  const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink];
+  const pages = [projectsLink, cvLink];
 
   pages.forEach((elem) => {
     if (url.includes(elem.id)) {
