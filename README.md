@@ -246,3 +246,9 @@ Astro Modern Personal Website is licensed under the MIT license — see the [LIC
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+<a href="https://github.com/nhat416/nhat-portfolio-astro/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nhat416/nhat-portfolio-astro" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
